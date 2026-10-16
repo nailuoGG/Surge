@@ -1,0 +1,263 @@
+{
+  "upstream": "SukkaW/Surge",
+  "observedUpstreamRef": "master",
+  "observedUpstreamCommit": "5974bf6e75a5a8bec367dd138d052a190caab79d",
+  "licenseCommit": "5974bf6e75a5a8bec367dd138d052a190caab79d",
+  "capturedAt": "2026-10-16T16:19:39.342059+00:00",
+  "updateMode": "manual review only; no automatic upstream merge or workflow",
+  "provenanceNote": "Rule server/CDN bytes were captured separately. The observed source commit does not prove that dynamic server artifacts were built from that commit.",
+  "files": [
+    {
+      "path": "List/non_ip/sogouinput.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/sogouinput.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 879,
+      "entries": 15,
+      "sha256": "46884691525c0fb7058ff6dd06fb2d78174c8ab2759114ccbaa65de8b4554ccc"
+    },
+    {
+      "path": "List/domainset/reject.conf",
+      "url": "https://ruleset.skk.moe/List/domainset/reject.conf",
+      "type": "DOMAIN-SET",
+      "status": "ok",
+      "bytes": 3133244,
+      "entries": 140727,
+      "sha256": "c93d0fc5ee9da1b958ea5f180ca9812e929793ead8a4842fdb310bcbdad21b9f"
+    },
+    {
+      "path": "List/non_ip/reject.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/reject.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 13524,
+      "entries": 370,
+      "sha256": "0620fd54346f03eb1a17cb18aeff45423cb801845aaa7a0eb7486277a1bff91a"
+    },
+    {
+      "path": "List/non_ip/reject-no-drop.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 1908,
+      "entries": 46,
+      "sha256": "e0d48603980bd4c5862b0727e93ab0446d2c22a2a814cf4e2cbb5da28b2b8254"
+    },
+    {
+      "path": "List/non_ip/reject-drop.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/reject-drop.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 1360,
+      "entries": 29,
+      "sha256": "f5f3606947fdcb055fc1c937fc8e89b6692d5f63afc58f8a1bc45438853fcd11"
+    },
+    {
+      "path": "List/domainset/speedtest.conf",
+      "url": "https://ruleset.skk.moe/List/domainset/speedtest.conf",
+      "type": "DOMAIN-SET",
+      "status": "ok",
+      "bytes": 88221,
+      "entries": 3433,
+      "sha256": "ac4163a10dcb7ede35e25fd3ba841722599124b2bc869587728aab69a9aca4a5"
+    },
+    {
+      "path": "List/non_ip/telegram.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/telegram.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 834,
+      "entries": 15,
+      "sha256": "bccbd162554d2cb56b16cdd59fbc2d1abec645bd53c9db18460137ffccbbc2a2"
+    },
+    {
+      "path": "List/domainset/cdn.conf",
+      "url": "https://ruleset.skk.moe/List/domainset/cdn.conf",
+      "type": "DOMAIN-SET",
+      "status": "ok",
+      "bytes": 89939,
+      "entries": 4692,
+      "sha256": "a45f84f1d34420f134bef22f1188786d3ad1ceb8f717f2c223a79b58abb52893"
+    },
+    {
+      "path": "List/non_ip/cdn.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/cdn.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 3489,
+      "entries": 85,
+      "sha256": "57df4d858a615a2f1c8654264e1cf7f60da32f4cde983476a9cd94610ce618a0"
+    },
+    {
+      "path": "List/non_ip/apple_cdn.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/apple_cdn.conf",
+      "type": "RULE-SET",
+      "status": "deprecated-empty",
+      "bytes": 167,
+      "entries": 0,
+      "sha256": "41b51e82a7350e4a1ba378eb0148590c6f27f7f1f85eccfcdd0d96da19eb9113"
+    },
+    {
+      "path": "List/non_ip/microsoft_cdn.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/microsoft_cdn.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 3076,
+      "entries": 53,
+      "sha256": "9cc652e595d6782cae91b3960306777934ae8609b46d474e452c3e9099bcef7f"
+    },
+    {
+      "path": "List/domainset/download.conf",
+      "url": "https://ruleset.skk.moe/List/domainset/download.conf",
+      "type": "DOMAIN-SET",
+      "status": "ok",
+      "bytes": 45788,
+      "entries": 1973,
+      "sha256": "0855cb9678a67207eb29f11577e6d7681c80dbca25670275c9704fc5759e1261"
+    },
+    {
+      "path": "List/non_ip/download.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/download.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 874,
+      "entries": 11,
+      "sha256": "741c1e7dda34bae2dd7611262c15431a66a50f6bdac24b96f070e1529479a594"
+    },
+    {
+      "path": "List/non_ip/apple_cn.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/apple_cn.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 826,
+      "entries": 10,
+      "sha256": "a31f9e98c5a4fdd585a7c78b6f3a1994015ab54a57a3d82057bd17f278f6a76f"
+    },
+    {
+      "path": "List/non_ip/apple_services.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/apple_services.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 1157,
+      "entries": 26,
+      "sha256": "9c32e8eb6e1d334a85b972791a0afc4b0fc81f57d3a80902a50c9168269f7602"
+    },
+    {
+      "path": "List/non_ip/microsoft.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/microsoft.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 2714,
+      "entries": 84,
+      "sha256": "1cc7293548c9f251adf9e373a57bfef3501f6e6756d8234aed5415a5ead4e439"
+    },
+    {
+      "path": "List/non_ip/ai.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/ai.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 2125,
+      "entries": 56,
+      "sha256": "055e56209c88a9306be210813e9e3ef175fdff4b90aaf05768953673bfbc9aea"
+    },
+    {
+      "path": "List/non_ip/global.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/global.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 33374,
+      "entries": 1275,
+      "sha256": "5e0c7e212fe4e8dab6aa6082133346f05ac30a007c429bc983ae2c5a2535a0a9"
+    },
+    {
+      "path": "List/non_ip/neteasemusic.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/neteasemusic.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 608,
+      "entries": 5,
+      "sha256": "8e3017a526f50ed80deddf4b26339f25cc0f60ad1c4ef0667ec7080f3ee1215e"
+    },
+    {
+      "path": "List/non_ip/domestic.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/domestic.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 22709,
+      "entries": 872,
+      "sha256": "b939098609fd21d1e7e1efed05947fc7f55856d12e016944635bc64d2d8470c2"
+    },
+    {
+      "path": "List/ip/telegram.conf",
+      "url": "https://ruleset.skk.moe/List/ip/telegram.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 1116,
+      "entries": 15,
+      "sha256": "27f6bab896e98ec9631fd187ff5147fb101260fc7a322c0dc994bbd27ed0a81f"
+    },
+    {
+      "path": "List/non_ip/lan.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/lan.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 1868,
+      "entries": 50,
+      "sha256": "de25958cecccfeb384d58d989ed407f8160575e4aa9a047f9d954eaef68788ae"
+    },
+    {
+      "path": "List/ip/lan.conf",
+      "url": "https://ruleset.skk.moe/List/ip/lan.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 693,
+      "entries": 12,
+      "sha256": "0866aadd6e3a726914b2db4f001c00a2df739bf7639795b475aef4ab3f676806"
+    },
+    {
+      "path": "List/ip/reject.conf",
+      "url": "https://ruleset.skk.moe/List/ip/reject.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 22292,
+      "entries": 780,
+      "sha256": "021228be383159d124ebee575c21300e32fbbdedbfb8764a9b11dd9c1aaca717"
+    },
+    {
+      "path": "List/ip/domestic.conf",
+      "url": "https://ruleset.skk.moe/List/ip/domestic.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 566,
+      "entries": 3,
+      "sha256": "99fd01e3b16bb3715dc2a07f5e3c4fde213c2031469256282c55aa7e1ed46494"
+    },
+    {
+      "path": "List/ip/china_ip.conf",
+      "url": "https://ruleset.skk.moe/List/ip/china_ip.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 91977,
+      "entries": 3885,
+      "sha256": "177780af4d927e73c7ab8b83e1d93d17fc869312e769c8a91e0ed359475dbc5c"
+    },
+    {
+      "path": "List/non_ip/direct.conf",
+      "url": "https://ruleset.skk.moe/List/non_ip/direct.conf",
+      "type": "RULE-SET",
+      "status": "ok",
+      "bytes": 6317,
+      "entries": 220,
+      "sha256": "46c65d1a59289d07f52f7652f9d1695d2996f65c125a14593b3eb7322086f8ec"
+    },
+    {
+      "path": "List/domainset/apple_cdn.conf",
+      "url": "https://ruleset.skk.moe/List/domainset/apple_cdn.conf",
+      "type": "DOMAIN-SET",
+      "status": "ok",
+      "bytes": 4628,
+      "entries": 160,
+      "sha256": "0c81cbe6af3a1c3befbe973441bb5667caf817a9447fca55022182d015669180"
+    }
+  ]
+}
